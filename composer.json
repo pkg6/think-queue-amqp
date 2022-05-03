@@ -1,0 +1,32 @@
+{
+  "name": "tp5er/think-queue-Amqp",
+  "description": "amqp(RabbitMQ) connector for think-queue",
+  "license": "MIT",
+  "type": "think-extend",
+  "keywords": [
+    "think-queue",
+    "rabbitmq",
+    "message",
+    "queue"
+  ],
+  "require": {
+    "php": ">7.1",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "topthink/think-queue": "^3.0",
+    "phpunit/phpunit": "^6|^7|^8|^9",
+    "mockery/mockery": "^1.2.3",
+    "php-amqplib/php-amqplib": "^2.12|^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "tp5er\\think\\queue\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tp5er\\think\\queue\\Tests\\": "tests/"
+    }
+  }
+}
