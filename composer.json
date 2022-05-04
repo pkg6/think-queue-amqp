@@ -21,12 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "tp5er\\think\\queue\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "tp5er\\think\\queue\\Tests\\": "tests/"
+      "think\\queue\\": "src"
     }
   }
 }
