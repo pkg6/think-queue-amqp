@@ -2,7 +2,6 @@
 
 ## Amp(RabbitMq)
 
-> 驱动安装: `composer require php-amqplib/php-amqplib ^3.0`
 >
 > 支持阿里云 账号密码->实例列表->静态用户名密码
 
